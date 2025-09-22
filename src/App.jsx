@@ -2,14 +2,14 @@ import React from "react";
 import { BrowserRouter as Router, Routes, Route, Navigate } from "react-router-dom";
 import { QueryClient, QueryClientProvider } from "@tanstack/react-query";
 import { Toaster } from "sonner@2.0.3";
-import { HomePage } from "./components/HomePage.js";
-import { LoginForm } from "./components/LoginForm.js";
-import { SignupForm } from "./components/SignupForm.js";
-import { MyPage } from "./components/MyPage.js";
-import { TravelPlanPage } from "./components/TravelPlanPage.js";
+import { HomePage } from "./components/HomePage.jsx";
+import { LoginForm } from "./components/LoginForm.jsx";
+import { SignupForm } from "./components/SignupForm.jsx";
+import { MyPage } from "./components/MyPage.jsx";
+import { TravelPlanPage } from "./components/TravelPlanPage.jsx";
 // 여행경로 관련 페이지 제거: RouteDetailPage
-import { AuthProvider } from "./components/AuthProvider.js";
-import { FavoritesProvider } from "./components/contexts/FavoritesContext.js";
+import { AuthProvider } from "./components/AuthProvider.jsx";
+import { FavoritesProvider } from "./components/contexts/FavoritesContext.jsx";
 
 // React Query 클라이언트 설정 - 서버 데이터 캐싱 및 관리
 const queryClient = new QueryClient({

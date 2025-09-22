@@ -1,0 +1,11 @@
+{
+  "name": "bingoroot-design",
+  "version": "1.0.0",
+  "scripts": {
+    "dev": "vite",
+    "start": "vite",
+    "build": "vite build"
+  },
+  "dependencies": {},
+  "devDependencies": {}
+}
